@@ -14,6 +14,9 @@ module.exports = {
       white : '#fff'
     },
     extend: {
+      height: {
+        '128': '32rem',
+      },
       rotate: {
         '25': '25deg',
       },

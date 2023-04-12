@@ -3,7 +3,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className='flex flex-col items-center justify-around h-screen text-6xl font-bold md:flex-row-reverse md:text-9xl w-full lg:px-32 px-16 lg:mt-2 mt-8' >
+    <div className='flex flex-col items-center justify-around h-screen text-6xl font-bold md:flex-row-reverse md:text-9xl w-full lg:px-32 px-16 lg:mt-2 mt-20' >
       {/* Box One */}
       <h1>
         Hello<span className='text-quaternary'>.</span> <br /> 
