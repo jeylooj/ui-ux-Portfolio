@@ -3,6 +3,8 @@ import { Open_Sans } from 'next/font/google'
 import NavBar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import AboutMe from './components/AboutMe'
+import Portfolio from './components/Portfolio'
+import Resume from './components/Resume'
 
 const openSans = Open_Sans({ subsets: ['latin'] })
 
@@ -12,6 +14,8 @@ export default function Home() {
     <NavBar/>
     <HeroSection/>
     <AboutMe/>
+    <Portfolio/>
+    <Resume/>
    </div>
   )
 }
