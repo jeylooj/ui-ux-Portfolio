@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection'
 import AboutMe from './components/AboutMe'
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
+import Collaboration from './components/Collaboration'
 
 const openSans = Open_Sans({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function Home() {
     <AboutMe/>
     <Portfolio/>
     <Resume/>
+    <Collaboration/>
    </div>
   )
 }

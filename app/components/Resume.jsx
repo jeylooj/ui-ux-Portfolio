@@ -12,7 +12,7 @@ const Resume = () => {
    <Image src='../Assets/SVG/Green Circle.svg' width={47} height={47} alt='square'
    className='absolute bottom-80 -right-44'
    />
-   <section className='flex flex-col mx-0 my-auto items-center justify-center w-96 text-center gap-3'>
+   <section className='flex flex-col mx-0 my-auto items-center justify-center w-96 text-center gap-4'>
    <Image src='../Assets/SVG/Yellow Rectangle 5.svg' width={25} height={25} alt='square' className='rotate-90 absolute -top-28 left-96'/>
     <h3 className='text-xl'>Thanks for scrolling down, to here!</h3>
     <p className='text-tertiary'>You can easily download my Resume by clicking the button below! Thanks for considering it!</p>
