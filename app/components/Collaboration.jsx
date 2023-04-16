@@ -22,6 +22,8 @@ const Collaboration = () => {
                 src={`/${step.image}`}
                 width={329}
                 height={266}
+                alt='representing the steps'
+                key={step.key}
                 />
               </section>
             )
