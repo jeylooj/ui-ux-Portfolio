@@ -11,7 +11,8 @@ module.exports = {
       secondary: '#FCAF54',
       tertiary: '#64748B',
       quaternary: '#FC5457',
-      white : '#fff'
+      white : '#fff',
+      light :  '#F7F7F7',
     },
     extend: {
       height: {
