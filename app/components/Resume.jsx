@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 const Resume = () => {
   return (
-    <section className='flex items-center justify-center h-screen'>
+    <section className='flex items-center justify-center h-screen resume'>
     <h2 
    className='text-6xl lg:text-9xl font-semibold rotate-0 lg:-rotate-90 whitespace-nowrap absolute -left-36'>Resume
    <span className='text-secondary'>.</span>

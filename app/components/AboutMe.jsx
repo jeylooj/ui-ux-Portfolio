@@ -3,7 +3,7 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-    <section className='flex items-center gap-30 w-screen'>
+    <section className='flex items-center gap-30 w-screen about'>
       <h2 
       className='text-6xl lg:text-9xl font-semibold rotate-0 lg:-rotate-90 w-full whitespace-nowrap h-128'>About me
       <span className='text-quaternary'>.</span>

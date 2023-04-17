@@ -18,10 +18,40 @@ li:hover {
 
 }
 
+
 @media (max-width: 767px) { 
   li:hover {
     background: black;
     color: white;
     text-decoration: none;
   }
+ }
+
+ @media (min-width:1280px){
+  .title {
+    background: url('/Assets/Images/B1-Title.jpg');
+    background-size: cover;
+    
+    }
+    
+    .about {
+    background: url('/Assets/Images/B2-About.jpg');
+    background-size: cover;
+    }
+    .portfolio {
+    background: url('/Assets/Images/B3-Port.jpg');
+    background-size: cover;
+    }
+    .resume {
+    background: url('/Assets/Images/B4-Res.jpg');
+    background-size: cover;
+    }
+    .collaboration {
+    background: url('/Assets/Images/B5-Collab.jpg');
+    background-size: cover;
+    }    
+  .contact {
+    background: url('/Assets/Images/B6-Cont.jpg');
+    background-size: cover;
+    }
  }
