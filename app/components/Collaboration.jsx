@@ -10,7 +10,7 @@ const Collaboration = () => {
         {
           Steps.map((step)=>{
             return (
-              <section className='flex w-3/4 justify-center mx-auto my-0 h-72 align-bottom p-5 mb-10'>
+              <section className='flex w-3/4 justify-center mx-auto my-0 h-72 align-bottom p-5 mb-10' key={"j"}>
                 {/* TextBox */}
                 <div className='flex flex-col'>
                 <span>{step.step}. {step.title}</span>

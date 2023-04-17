@@ -14,6 +14,7 @@ const ContactMe = () => {
         <Image src="../Assets/SVG/Green Circle.svg"
           width={68}
           height={68}
+          alt='circle'
           className='rotate-25 absolute right-1/2'
           />
       <h3 className='text-5xl font-bold text-center py-8'>"Let's connect"</h3>
@@ -31,6 +32,7 @@ const ContactMe = () => {
           width={94}
           height={94}
           className='absolute'
+          alt='nice to meet you'
           />
         </div>
         {/* Dribble */}
