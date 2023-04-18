@@ -12,7 +12,7 @@ const Gallery = () => {
     console.log('lightGallery has been initialized');
 };
 return (
-            <section className='App w-3/5'>
+            <section className='App lg:w-3/5 w-full'>
             <LightGallery
             onInit={onInit}
             speed={500}

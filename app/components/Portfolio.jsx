@@ -3,10 +3,10 @@ import Gallery from './Gallery';
 
 const Portfolio = () => {
   return (
-    <section className='flex items-center gap-30 w-screen h-screen portfolio justify-center relative'>
+    <section className='flex lg:flex-row flex-col-reverse  gap-30 p-10 portfolio justify-center relative items-center'>
       <Gallery/>
       <h2 
-      className='text-6xl lg:text-9xl font-semibold rotate-0 lg:rotate-90 whitespace-nowrap absolute -right-28'>Portfolio
+      className='text-6xl lg:text-9xl font-semibold rotate-0 lg:rotate-90 whitespace-nowrap lg:absolute lg:-right-28 overflow-hidden '>Portfolio
       <span className='text-secondary'>.</span>
       </h2>
     </section>

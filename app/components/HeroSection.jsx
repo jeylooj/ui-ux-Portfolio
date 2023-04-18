@@ -5,10 +5,10 @@ const HeroSection = () => {
   return (
     <div className='flex flex-col items-center justify-around h-screen text-6xl font-bold md:flex-row-reverse md:text-9xl w-full lg:px-32 px-16 lg:mt-2 mt-20 title' >
       {/* Box One */}
-      <h1>
+      <h1 className='overflow-hidden'>
         Hello<span className='text-quaternary'>.</span> <br /> 
-        <div className='flex'> 
-        <div className='text-base w-20 bg-secondary h-20 px-2 py-1 -rotate-[25deg] absolute -ml-16 bottom-96 hidden lg:visible'>
+        <div className='flex overflow-hidden'> 
+        <div className='text-base w-20 bg-secondary h-20 px-2 py-1 -rotate-[25deg] absolute -ml-16 bottom-96 hidden lg:visible '>
           Nice to meet <br /> you!</div>
         <div className=''>I am </div>
         </div>
