@@ -35,28 +35,33 @@ li:hover {
  @media (min-width:1280px){
   .title {
     background: url('/Assets/Images/B1-Title.jpg');
-    background-size: cover;
-    
+    background-size: contain;
+    background-repeat: no-repeat;
     }
     
     .about {
     background: url('/Assets/Images/B2-About.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     }
     .portfolio {
     background: url('/Assets/Images/B3-Port.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     }
     .resume {
     background: url('/Assets/Images/B4-Res.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     }
     .collaboration {
     background: url('/Assets/Images/B5-Collab.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     }    
   .contact {
     background: url('/Assets/Images/B6-Cont.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     }
  }
