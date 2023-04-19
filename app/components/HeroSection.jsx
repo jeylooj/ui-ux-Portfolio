@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className='flex overflow-hidden'> 
         <div className='text-base w-20 bg-secondary h-20 px-2 py-1 -rotate-[25deg] absolute -ml-16 bottom-96 hidden lg:visible '>
           Nice to meet <br /> you!</div>
-        <div className=''>I am </div>
+        <div className='overflow-hidden'>I am </div>
         </div>
        Shahab
       </h1>
