@@ -46,8 +46,8 @@ li:hover {
     }
     .portfolio {
     background: url('/Assets/Images/B3-Port.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+
     }
     .resume {
     background: url('/Assets/Images/B4-Res.jpg');
