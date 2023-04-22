@@ -20,23 +20,17 @@ const ContactMe = () => {
       <h3 className='lg:text-5xl text-4xl font-bold text-center py-8'>"Let's connect"</h3>
       <p className='text-tertiary font-semibold py-8 text-lg w-full '>"Thank you for taking the time to review my portfolio. If you are interested in learning more about how I can assist you or your company in achieving your goals, please don't hesitate to contact me. I am currently seeking full-time opportunities and would welcome the chance to discuss any potential positions further."</p>
       {/* Socials */}
-      <div className='flex flex-col md:flex-row justify-around  py-4'>
+      <div className='flex flex-col md:flex-row justify-around  py-4 relative'>
         {/* Email */}
-        <div>
+        <div className='gap-5 flex flex-col'>
           <div className='flex items-center gap-2'>
           <h4 className='text-2xl font-semibold'>Email</h4>
           <img src="../Assets/SVG/Email Icon.svg" alt=""/>
           </div>
           <span className='text-tertiary'>xshahabsx@gmail.com</span>
-          <Image src="../Assets/SVG/Nice to meet again you sticker.svg"
-          width={94}
-          height={94}
-          className='absolute invisible md:visible'
-          alt='nice to meet you'
-          />
         </div>
         {/* Dribble */}
-        <div>
+        <div className='gap-5 flex flex-col'>
           <div className='flex items-center gap-2'>
           <h4 className='text-2xl font-semibold'>Dribble</h4>
           <img src="../Assets/SVG/dribbble-icon-1-logo-png-transparent 1.png" alt="" />
