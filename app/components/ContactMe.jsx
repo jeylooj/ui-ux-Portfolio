@@ -17,10 +17,10 @@ const ContactMe = () => {
           alt='circle'
           className='rotate-25 absolute right-1/2 invisible lg:visible'
           />
-      <h3 className='lg:text-5xl text-4xl font-bold text-center py-8'>"Let's connect"</h3>
+      <h3 className='lg:text-5xl text-4xl font-bold py-8'>"Let's connect"</h3>
       <p className='text-tertiary font-semibold py-8 text-lg w-full '>"Thank you for taking the time to review my portfolio. If you are interested in learning more about how I can assist you or your company in achieving your goals, please don't hesitate to contact me. I am currently seeking full-time opportunities and would welcome the chance to discuss any potential positions further."</p>
       {/* Socials */}
-      <div className='flex flex-col md:flex-row justify-around  py-4 relative'>
+      <div className='flex flex-col md:flex-row justify-start  py-4 relative gap-20'>
         {/* Email */}
         <div className='gap-5 flex flex-col'>
           <div className='flex items-center gap-2'>
