@@ -40,17 +40,17 @@ li:hover {
     }
     
     .about {
-    background: url('/Assets/Images/B2-About.jpg');
+    background: url('/Assets/Images/B2-About new.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     }
     .portfolio {
-    background: url('/Assets/Images/B3-Port.jpg');
+    background: url('/Assets/Images/B3-Port new.jpg');
     background-size: cover;
 
     }
     .resume {
-    background: url('/Assets/Images/B4-Res.jpg');
+    background: url('/Assets/Images/B4-Res new.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     }
