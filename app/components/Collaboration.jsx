@@ -3,7 +3,7 @@ import Steps from '@/public/Assets/Data/steps';
 import Image from 'next/image';
 const Collaboration = () => {
   return (
-    <section className='flex flex-col items-center gap-3 collaboration'>
+    <section className='flex flex-col items-center gap-3 collaboration' id='collaboration'>
       <h2 className='text-5xl lg:text-9xl font-semibold overflow-hidden'>Collaboration <span className='text-secondary'>.</span></h2>
       <p className='lg:w-2/6 md:w-full w-full text-tertiary mb-10 font-semibold px-10'>Our work is characterized by a methodical and collaborative approach, where we proceed step by step towards achieving our goals, as follows ;</p>
       <section className=''>

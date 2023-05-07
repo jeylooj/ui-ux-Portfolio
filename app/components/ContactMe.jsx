@@ -4,7 +4,7 @@ import ContactForm from './ContactForm';
 
 const ContactMe = () => {
   return (
-    <section className='items-center justify-center flex flex-col py-10 contact'>
+    <section className='items-center justify-center flex flex-col py-10 contact' id='contact'>
          <h2 
       className='text-6xl lg:text-8xl font-semibold items-center justify-center text-center py-16'>Contact me
       <span className='text-quaternary'>.</span>

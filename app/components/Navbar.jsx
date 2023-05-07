@@ -44,7 +44,7 @@ function NavBar() {
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
                 <li className="pb-6 py-2 md:px-6 border-b-2 md:border-b-0 underline-offset-8">
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#" onClick={() => setNavbar(!navbar)}>
                     Home
                   </Link>
                 </li>
@@ -54,22 +54,22 @@ function NavBar() {
                   </Link>
                 </li>
                 <li className="pb-6 py-2 md:px-6 border-b-2 md:border-b-0 underline-offset-8">
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#portfolio" onClick={() => setNavbar(!navbar)}>
                     Portfolio
                   </Link>
                 </li>
                 <li className="pb-6 py-2 md:px-6 border-b-2 md:border-b-0 underline-offset-8">
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#resume" onClick={() => setNavbar(!navbar)}>
                     Resume
                   </Link>
                 </li>
                 <li className="pb-6 py-2 md:px-6 border-b-2 md:border-b-0 underline-offset-8">
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#collaboration" onClick={() => setNavbar(!navbar)}>
                     Collaboration
                   </Link>
                 </li>
                 <li className="pb-6 py-2 md:px-6 border-b-2 md:border-b-0 underline-offset-8">
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                     Contact me
                   </Link>
                 </li>
