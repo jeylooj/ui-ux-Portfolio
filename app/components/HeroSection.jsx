@@ -18,11 +18,11 @@ const HeroSection = () => {
       {/* Box Two */}
       <div className='flex flex-col gap-3  w-full lg:w-1/4'>
 
-        <h2 className='text-base bg-secondary px-2  w-[172px]'>UI/UX Designer</h2>
-        <h2 className='text-base bg-secondary px-2  w-[192px]'>Graphic Designer</h2>
-        <h2 className='text-base bg-secondary px-2  w-[145px]'>2d Animator</h2>
+        <h2 className='text-[20px] bg-secondary px-2  w-[172px]'>UI/UX Designer</h2>
+        <h2 className='text-[20px] bg-secondary px-2  w-[192px]'>Graphic Designer</h2>
+        <h2 className='text-[20px] bg-secondary px-2  w-[145px]'>2d Animator</h2>
 
-        <h1 className='bg-quaternary text-base px-2 text-white w-4/12'>Poland</h1>
+        <h1 className='bg-quaternary text-[20px] px-2 text-white w-[150px]'>Poland</h1>
       </div>
     </div>
   );
