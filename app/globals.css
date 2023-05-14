@@ -50,10 +50,11 @@ li:hover {
     background: url('/Assets/Images/B3-Port new.jpg');
     background-size: contain;
     background-color: #fff;
+    background-repeat: no-repeat;
     }
     .resume {
     background: url('/Assets/Images/B4-Res new.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #fff;
     }
